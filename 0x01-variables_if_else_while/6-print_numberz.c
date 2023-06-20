@@ -1,15 +1,15 @@
 #include<stdio.h>
 /**
-* main - this program prints all digit numbers
-*
-* Return: 0
-*/
+ * main - this program prints all digit numbers
+ *
+ * Return: 0
+ */
 int main(void)
 {
-		int x;
+	int x;
 
-			for (x = '0'; x <= '9'; x++)
-						putchar(x);
-				putchar('\n');
-					return (0);
+	for (x = '0'; x <= '9'; x++)
+		putchar(x);
+	putchar('\n');
+	return (0);
 }
