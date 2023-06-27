@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- * this function swaps the value of *a and *b to an outcome be a = 42; b = 98
- * return 0
+ * swap_int - swaps the values of two integers
+ * @a: integer to swap
+ * @b: integer to swap
  */
 void swap_int(int *a, int *b)
 {
-	int n;
+	int n
 	n = *a;
 	*a = *b;
 	*b = n;
